@@ -32,7 +32,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:actuator_board
-LIBS:actuator_board_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A0 46811 33110
@@ -739,4 +738,190 @@ F 3 "" H 12300 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10650 4150
+$Comp
+L USB_B J?
+U 1 1 5ACCF324
+P 6950 4500
+F 0 "J?" H 6750 4950 50  0000 L CNN
+F 1 "USB_B" H 6750 4850 50  0000 L CNN
+F 2 "" H 7100 4450 50  0001 C CNN
+F 3 "" H 7100 4450 50  0001 C CNN
+	1    6950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4300 7600 4300
+$Comp
+L Fuse F?
+U 1 1 5ACCF503
+P 7750 4300
+F 0 "F?" V 7600 4300 50  0000 C CNN
+F 1 "Fuse" V 7675 4300 50  0000 C CNN
+F 2 "" V 7680 4300 50  0001 C CNN
+F 3 "" H 7750 4300 50  0001 C CNN
+	1    7750 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 4300 8150 4300
+Wire Wire Line
+	8150 4300 8150 4050
+Wire Wire Line
+	8150 4050 8450 4050
+$Comp
+L R R?
+U 1 1 5ACCF6FC
+P 7750 4500
+F 0 "R?" V 7650 4500 50  0000 C CNN
+F 1 "R" V 7750 4500 50  0000 C CNN
+F 2 "" V 7680 4500 50  0001 C CNN
+F 3 "" H 7750 4500 50  0001 C CNN
+	1    7750 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5ACCF77F
+P 7750 4600
+F 0 "R?" V 7830 4600 50  0000 C CNN
+F 1 "R" V 7750 4600 50  0000 C CNN
+F 2 "" V 7680 4600 50  0001 C CNN
+F 3 "" H 7750 4600 50  0001 C CNN
+	1    7750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 4500 8250 4500
+Wire Wire Line
+	8250 4500 8250 4150
+Wire Wire Line
+	8250 4150 8450 4150
+Wire Wire Line
+	7900 4600 8350 4600
+Wire Wire Line
+	8350 4600 8350 4250
+Wire Wire Line
+	8350 4250 8450 4250
+Wire Wire Line
+	6850 4900 6850 5150
+$Comp
+L Ferrite_Bead L?
+U 1 1 5ACCFE18
+P 7700 5150
+F 0 "L?" V 7550 5175 50  0000 C CNN
+F 1 "Ferrite_Bead" V 7850 5150 50  0000 C CNN
+F 2 "" V 7630 5150 50  0001 C CNN
+F 3 "" H 7700 5150 50  0001 C CNN
+	1    7700 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 5150 8450 4350
+Wire Wire Line
+	6950 4900 8150 4900
+$Comp
+L Varistor RV?
+U 1 1 5ACD02CE
+P 7500 5900
+F 0 "RV?" V 7625 5900 50  0000 C CNN
+F 1 "Varistor" V 7375 5900 50  0000 C CNN
+F 2 "" V 7430 5900 50  0001 C CNN
+F 3 "" H 7500 5900 50  0001 C CNN
+	1    7500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Varistor RV?
+U 1 1 5ACD0600
+P 7150 5900
+F 0 "RV?" V 7275 5900 50  0000 C CNN
+F 1 "Varistor" V 7025 5900 50  0000 C CNN
+F 2 "" V 7080 5900 50  0001 C CNN
+F 3 "" H 7150 5900 50  0001 C CNN
+	1    7150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5ACD0B66
+P 8150 5900
+F 0 "C?" H 8175 6000 50  0000 L CNN
+F 1 "1u" H 8175 5800 50  0000 L CNN
+F 2 "" H 8188 5750 50  0001 C CNN
+F 3 "" H 8150 5900 50  0001 C CNN
+	1    8150 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5150 8450 5150
+Wire Wire Line
+	8150 4900 8150 5150
+Connection ~ 8150 5150
+Wire Wire Line
+	6850 5150 7550 5150
+Wire Wire Line
+	7250 4500 7600 4500
+Wire Wire Line
+	7250 4600 7600 4600
+Text Label 7400 4500 0    60   ~ 0
+D+
+Text Label 7400 4600 0    60   ~ 0
+D-
+Text Label 7150 5550 0    60   ~ 0
+D+
+Wire Wire Line
+	7150 5750 7150 5550
+Wire Wire Line
+	7150 6050 7150 6300
+Wire Wire Line
+	7150 6300 7500 6300
+Wire Wire Line
+	7500 6050 7500 6650
+Connection ~ 7500 6300
+Text Label 7150 5150 0    60   ~ 0
+USHIELD
+Text Label 7500 6650 0    60   ~ 0
+USHIELD
+Wire Wire Line
+	7500 5550 7500 5750
+Text Label 7500 5550 0    60   ~ 0
+D-
+Wire Wire Line
+	8450 3950 8150 3950
+Text Label 8150 3950 2    60   ~ 0
+UCAP
+Text Label 8150 5550 0    60   ~ 0
+UCAP
+Wire Wire Line
+	8150 5550 8150 5750
+Text Label 7200 4900 0    60   ~ 0
+UGND
+Text Label 8150 6300 0    60   ~ 0
+UGND
+Wire Wire Line
+	8150 6300 8150 6050
+Wire Wire Line
+	10650 2950 11150 2950
+Wire Wire Line
+	10650 2850 11150 2850
+Wire Wire Line
+	10650 2750 11150 2750
+Text Label 11150 2950 0    60   ~ 0
+MISO2
+Text Label 11150 2850 0    60   ~ 0
+MOSI2
+Text Label 11150 2750 0    60   ~ 0
+SCK2
+NoConn ~ 10650 2650
+NoConn ~ 10650 3050
+NoConn ~ 10650 3150
+NoConn ~ 10650 3250
+NoConn ~ 10650 3350
+NoConn ~ 10650 3550
+NoConn ~ 10650 3650
+NoConn ~ 10650 4450
+NoConn ~ 10650 4550
+NoConn ~ 10650 4650
+NoConn ~ 10650 4750
+NoConn ~ 10650 4850
 $EndSCHEMATC
