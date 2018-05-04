@@ -540,7 +540,7 @@ U 1 1 5ACE6ED7
 P 11800 8450
 F 0 "C5" H 11825 8550 50  0000 L CNN
 F 1 "0.47u" H 11825 8350 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" H 11800 8450 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 11800 8450 50  0001 C CNN
 F 3 "" H 11800 8450 50  0001 C CNN
 	1    11800 8450
 	1    0    0    -1  
@@ -1414,9 +1414,9 @@ F 3 "" H 23200 12500 50  0001 C CNN
 	1    23200 12500
 	1    0    0    -1  
 $EndComp
-Text Label 23150 12400 0    60   ~ 0
+Text Label 23000 12400 2    60   ~ 0
 VOLDIV19V
-Text Label 23150 12500 0    60   ~ 0
+Text Label 23000 12600 2    60   ~ 0
 VOLDIV5V
 $Comp
 L Conn_02x03_Counter_Clockwise J1
@@ -1430,10 +1430,10 @@ F 3 "" H 6300 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Top_Bottom J?
+L Conn_02x04_Top_Bottom J7
 U 1 1 5AEB2B1C
 P 22100 8150
-F 0 "J?" H 22150 8350 50  0000 C CNN
+F 0 "J7" H 22150 8350 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 22150 7850 50  0000 C CNN
 F 2 "" H 22100 8150 50  0001 C CNN
 F 3 "" H 22100 8150 50  0001 C CNN
@@ -1458,14 +1458,32 @@ Connection ~ 22400 8250
 Wire Wire Line
 	22400 8350 22550 8350
 $Comp
-L GND #PWR?
+L GND #PWR024
 U 1 1 5AEB3E71
 P 22550 8350
-F 0 "#PWR?" H 22550 8100 50  0001 C CNN
+F 0 "#PWR024" H 22550 8100 50  0001 C CNN
 F 1 "GND" H 22550 8200 50  0000 C CNN
 F 2 "" H 22550 8350 50  0001 C CNN
 F 3 "" H 22550 8350 50  0001 C CNN
 	1    22550 8350
 	1    0    0    -1  
 $EndComp
+Text Label 23000 12500 2    60   ~ 0
+Current19V
+Text Label 20200 13850 0    60   ~ 0
+Current5V
+Text Label 23000 12700 2    60   ~ 0
+Current5V
+Text Label 19100 9600 0    60   ~ 0
+Current19V
+Wire Wire Line
+	17100 14400 17100 14900
+Connection ~ 17100 14400
+Wire Wire Line
+	17500 14400 17500 14900
+Connection ~ 17500 14400
+Text Label 17100 14900 3    60   ~ 0
+VCC
+Text Label 17500 14900 3    60   ~ 0
+VCC
 $EndSCHEMATC
