@@ -1,0 +1,323 @@
+Cmp-Mod V01 Created by PcbNew   date = 08/11/18 00:18:06
+
+BeginCmp
+TimeStamp = 5AF2A4A5
+Path = /5AF62915
+Reference = J1;
+ValeurCmp = Conn_01x06_Male;
+IdModule  = Connectors_Molex:Molex_PicoClasp_501331-0607_1x06_P1.0mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A4B9
+Path = /5AF71126
+Reference = J3;
+ValeurCmp = Conn_02x03_Counter_Clockwise;
+IdModule  = Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A4C5
+Path = /5AF712A0
+Reference = J4;
+ValeurCmp = Conn_02x03_Counter_Clockwise;
+IdModule  = Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A4DD
+Path = /5AF4FD98
+Reference = R1;
+ValeurCmp = 4k;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A4E3
+Path = /5B6E43C5
+Reference = R2;
+ValeurCmp = 5K;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A4E9
+Path = /5AF502AD
+Reference = R3;
+ValeurCmp = 4k;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A4EF
+Path = /5B6E3FE8
+Reference = R4;
+ValeurCmp = 5K;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A4F5
+Path = /5B6E362E
+Reference = R5;
+ValeurCmp = 5K;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A4FB
+Path = /5B6E3A89
+Reference = R6;
+ValeurCmp = 5K;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A501
+Path = /5B6E0BF3
+Reference = R7;
+ValeurCmp = 5K;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A507
+Path = /5B6E324E
+Reference = R8;
+ValeurCmp = 5K;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A50D
+Path = /5AF503C9
+Reference = R9;
+ValeurCmp = 4k;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A513
+Path = /5AF5058A
+Reference = R10;
+ValeurCmp = 4k;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A519
+Path = /5AF506C4
+Reference = R11;
+ValeurCmp = 4k;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A525
+Path = /5AF50D4C
+Reference = R13;
+ValeurCmp = 4k;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A535
+Path = /5AF4FB36
+Reference = U1;
+ValeurCmp = DRV102-RESCUE-Actuator_board;
+IdModule  = TO_SOT_Packages_SMD:TO-263-7_TabPin4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A545
+Path = /5AF5029A
+Reference = U2;
+ValeurCmp = DRV102-RESCUE-Actuator_board;
+IdModule  = TO_SOT_Packages_SMD:TO-263-7_TabPin4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A561
+Path = /5AF503B6
+Reference = U4;
+ValeurCmp = DRV102-RESCUE-Actuator_board;
+IdModule  = TO_SOT_Packages_SMD:TO-263-7_TabPin4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A571
+Path = /5AF50577
+Reference = U5;
+ValeurCmp = DRV102-RESCUE-Actuator_board;
+IdModule  = TO_SOT_Packages_SMD:TO-263-7_TabPin4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A581
+Path = /5AF508F9
+Reference = U6;
+ValeurCmp = DRV102-RESCUE-Actuator_board;
+IdModule  = TO_SOT_Packages_SMD:TO-263-7_TabPin4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2A591
+Path = /5AF50D39
+Reference = U7;
+ValeurCmp = DRV102-RESCUE-Actuator_board;
+IdModule  = TO_SOT_Packages_SMD:TO-263-7_TabPin4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C8FB
+Path = /5ABE79FC
+Reference = D1;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C906
+Path = /5ABE7AD5
+Reference = D2;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C911
+Path = /5AF50273
+Reference = D3;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C91C
+Path = /5AF5027C
+Reference = D4;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C927
+Path = /5AF5038F
+Reference = D6;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C932
+Path = /5AF50398
+Reference = D7;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C93D
+Path = /5AF50550
+Reference = D8;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C948
+Path = /5AF50559
+Reference = D9;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C953
+Path = /5AF508D2
+Reference = D11;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C95E
+Path = /5AF508DB
+Reference = D13;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C969
+Path = /5AF50D12
+Reference = D15;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF2C974
+Path = /5AF50CCC
+Reference = D16;
+ValeurCmp = D_ALT;
+IdModule  = conn footprint:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6DDD31
+Path = /5B6E43CC
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6DDD3B
+Path = /5B6E3FEF
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6DDD41
+Path = /5B6E3635
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6DDD47
+Path = /5B6E3A90
+Reference = D14;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6DDD4D
+Path = /5B6E2911
+Reference = D17;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6DDD53
+Path = /5B6E3255
+Reference = D18;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6DDD54
+Path = /5B6DFFBA
+Reference = J2;
+ValeurCmp = Screw_Terminal_01x03;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm;
+EndCmp
+
+EndListe
